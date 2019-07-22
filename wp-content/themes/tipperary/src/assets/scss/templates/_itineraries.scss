@@ -1,0 +1,32 @@
+.itineraries {
+
+  &__itineraries-display, &__grid {
+
+    padding: $global-padding-v1-resp 0px $global-padding-v1-resp;
+
+    @include breakpoint(medium) {
+      padding: $global-padding-v2 0px $global-padding-v2 * 1.5;
+    }
+
+    @include breakpoint(xlarge) {
+      padding: $global-padding-v2 0px $global-padding-v2 * 1.5;
+    }
+
+    .facetwp-pager {
+      padding-bottom: 30px;
+    }
+
+    .facetwp-facet {
+      margin-bottom: 15px;
+
+      @include breakpoint(mobile down){
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+    }
+
+  }
+
+}

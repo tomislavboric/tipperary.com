@@ -1,0 +1,248 @@
+.facetwp-checkbox {
+  background: none!important;
+  position: relative;
+  padding-left: 30px!important;
+
+  &:before {
+    content: '';
+    border: 1px solid $light-gray;
+    background: #fff;
+    color: #555;
+    clear: none;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 20px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 4px!important;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    min-width: 20px;
+    -webkit-appearance: none;
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    background: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>');
+    top: 2px;
+    color: #333;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(0);
+    transition: all ease 0.3s;
+  }
+  &.checked:after {
+    transform: scale(1);
+    transition: all ease 0.3s;
+  }
+}
+input, textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    border-radius: $global-radius;
+    border: 1px solid $light-gray;
+    color: $medium-gray;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding-right: 1.5rem;
+    padding: 10px 15px;
+    width: 100%;
+    transition: border-color 0.25s ease-in-out;
+
+    &:focus {
+      outline: none;
+    }
+
+}
+select {
+    height: 40px;
+    margin: 0;
+    padding: 8px 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid $light-gray;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: $medium-gray;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M24 24H0V0h24v24z"/><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z"/></svg>');
+    background-origin: content-box;
+    background-position: right -20px center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding-right: 1.5rem;
+    transition: $transition;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $gray;
+    }
+
+    option {
+      cursor: pointer;
+    }
+
+    &.js-select2 {
+      display: none;
+    }
+
+}
+
+.facetwp-type-radio {
+    padding: 0px;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+
+    &:before,
+    &:after {
+        display: table;
+        content: ' ';
+        clear: both;
+        -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .facetwp-facet {
+      margin-bottom: 20px;
+    }
+
+    .facetwp-radio {
+      color: #333;
+      font-size: 16px;
+      letter-spacing: 0.06em;
+      padding: 11px 24px;
+      margin-bottom: 0px;
+      font-weight: 600;
+      outline: none;
+      text-transform: uppercase;
+      float: left;
+      background: none;
+      position: relative;
+
+      @include breakpoint(mobile down){
+        flex: 0 0 auto;
+      }
+
+      &:focus {
+          background: none;
+      }
+      &:active {
+          background: none;
+      }
+
+
+      &.checked {
+        color: $primary-color;
+        background-color: transparent;
+        background: none;
+
+        &::after {
+          position: absolute;
+          content: " ";
+          height: 3px;
+          left: 0;
+          right: 0;
+          bottom: -1px;
+          display: block;
+          background-color: $primary-color;
+        }
+      }
+    }
+}
+
+
+.facetwp-search-wrap {
+  position: relative;
+  width: 100%;
+
+
+  .facetwp-btn {
+    transform: translateY(-50%);
+    top: 50%;
+    right: 15px;
+  }
+}
+
+.facetwp-facet.facetwp-facet-categories_blog {
+  margin-bottom: 10px;
+
+   @include breakpoint(mobile down){
+     margin-bottom: 0;
+   }
+}
+
+// Error fields
+#form .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+.gform_wrapper li.gfield_error textarea {
+    border-color: #cacaca;
+}
+#form .gform_wrapper li.gfield.gfield_error {
+    border: none;
+    background-color: transparent;
+    padding: inherit;
+}
+#form .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container,
+#form .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label {
+    margin-top: 0;
+}
+#form .gform_wrapper div.validation_error,
+#form .gform_wrapper div.validation_message {
+  color: #df0015;
+  border: 0;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+
+.gform_wrapper div.validation_error {
+    line-height: 1.6;
+    padding: 0;
+    border: none;
+    text-align: left;
+}
+.charleft.ginput_counter {
+    font-size: 11px;
+    margin-top: -6px;
+}
+/* .validation_message {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: -6px;
+} */
+
+
+button.facetwp-map-filtering {
+  @include breakpoint(mobile down) {
+    display: none;
+  }
+}
+
+span.dots {
+    margin-right: 8px;
+}

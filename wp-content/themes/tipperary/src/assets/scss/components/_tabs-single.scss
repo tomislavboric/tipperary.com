@@ -1,0 +1,101 @@
+.tabs-single {
+	margin: 0 auto;
+	border: none;
+	padding-top: $global-padding-v2;
+	padding-bottom: 0px;
+
+	&__navigation {
+		display: block;
+		width: 100%;
+	}
+
+	&__list {
+		margin-bottom: 30px;
+		padding: 0px;
+		background-color: transparent;
+    	width: 100%;
+    	border-bottom: 1px solid $light-gray;
+
+	    @include breakpoint(small only) {
+			overflow-x: auto;
+			overflow-y: hidden;
+			white-space: nowrap;   
+		    display: flex; 
+		    flex-wrap: nowrap; 
+	    }
+	}
+
+	&__tab {
+		position: relative;
+		text-transform: uppercase;
+
+		> a {
+			color: $dark-gray;
+			font-size: 16px;
+      		padding: 14px 20px;
+			font-weight: 400;
+      		outline: none;
+
+		    &:focus {
+		        background: none;
+		    }
+			&:active {
+				background: none;
+			}
+			&:hover {
+				background-color: transparent;
+			}
+ 		}
+
+		&.is-active {
+
+			a {
+				color: $primary-color;
+				font-weight: 400;
+				background-color: transparent;
+
+				&::after {
+          			position: absolute;
+					content: " ";
+			        height: 3px;
+			        left: 0;
+			        right: 0;
+			        bottom: -1px;
+					display: block;
+					background-color: $primary-color;
+				} 
+			}
+		}
+    }
+
+	&__container {
+		border: none;
+	}
+
+	&-panel {
+		padding: 0px;
+	}
+
+	&__title {
+		font-size: 21px;
+		margin-bottom: 17px;
+	}
+
+	&__image {
+      position: relative; 
+
+      &-img {
+        display: block;
+        width: 100%;
+      }
+	}
+
+	&__content { 
+		background-color: transparent!important;
+
+		@include breakpoint(small only) {
+		    width: calc(100% - 2.275rem)!important;
+		    margin: 25px;
+		}
+	}
+}

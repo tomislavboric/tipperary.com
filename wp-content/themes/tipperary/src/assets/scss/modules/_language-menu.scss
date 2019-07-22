@@ -1,0 +1,40 @@
+.wpml-ls-menu-item {
+ 
+  vertical-align: middle;
+  position: relative;
+  
+  .dropdown {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden; 
+    transition: all 0.3s ease;
+    top: 20px;
+    background-color: $light-blue-v1; 
+
+    a {
+      border-color: transparent!important;
+      &:hover,
+      &:focus {
+        border-color: $blue!important;
+      }   
+    }
+  }
+
+  &:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+
+    a {
+      border-color: transparent!important;
+
+      &:hover {
+        border-color: $blue!important;
+      }      
+    }
+  } 
+
+  ul {
+    padding: 0px;
+  }
+} 

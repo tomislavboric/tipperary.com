@@ -1,0 +1,85 @@
+.page-header {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  text-align: center;
+  @include overlay;
+
+  @include breakpoint(medium) {
+    height: 350px
+  }
+
+  @include breakpoint(xlarge) {
+    height: 500px
+  }
+
+  &__title {
+    font-size: 30px;
+    color: $white;
+    margin: 0 0 .5rem;
+    letter-spacing: 0.03em;
+
+    @include breakpoint(medium) {
+      font-size: 43px;
+    }
+
+    @include breakpoint(xlarge) {
+      font-size: 40px;
+    }
+  }
+
+  &__breadcrumbs {
+    font-size: 10px;
+    color: $white;
+
+    @include breakpoint(medium down) {
+      font-size: 14px;
+    }
+
+    @include breakpoint(xlarge) {
+      font-size: 14px;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      a {
+        color: $white;
+        font-weight: 400;
+      }
+      i {
+        font-size: 19px;
+        margin: 0px;
+
+        @include breakpoint(medium) {
+          margin: 0 5px;
+        }
+
+        @include breakpoint(xlarge) {
+          margin: 0 5px;
+        }
+      }
+    }
+    .breadcrumb_last {
+      font-weight: 600;
+      color: $white;
+    }
+  }
+
+}
+
+.single-post {
+  .page-header {
+    height: 350px;
+    padding-top: 100px;
+
+    @include breakpoint(large down) {
+      height: 250px;
+      padding-top: 50px;
+    }
+  }
+}

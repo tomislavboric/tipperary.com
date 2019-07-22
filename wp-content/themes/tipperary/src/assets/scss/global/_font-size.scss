@@ -1,0 +1,13 @@
+//for contact page title, content form title, content overview, tabs, itenerary single day
+
+.h2-title {
+  font-size: 30px;
+
+  @include breakpoint(medium) {
+    font-size: 35px;
+  }
+
+  @include breakpoint(xlarge) {
+    font-size: 42px;
+  }
+}

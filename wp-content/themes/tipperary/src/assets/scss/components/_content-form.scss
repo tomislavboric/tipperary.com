@@ -1,0 +1,109 @@
+.content-form {
+    padding: $global-padding-v1-resp 0px;
+    height: 100%;
+
+    @include breakpoint(medium) {
+        padding: $global-padding-v2 0px;
+    }
+
+    @include breakpoint(xlarge) {
+        padding: $global-padding-v2 0px;
+    }
+
+    &__title {
+      font-weight: 100;
+      text-align: center;
+    }
+
+    &__link {
+        text-align: center;
+        color: $dark-gray-v1;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    &__link-title {
+        font-size: 21px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__form {
+
+        input:not([type=submit]),
+        textarea {
+            background-color: $light-blue-v1;
+            border: none;
+            padding: 12px 20px!important;
+            margin-top: 0px!important;
+            width: calc(100% - 46px)!important;
+            margin-left: 46px;
+            line-height: 1.4!important;
+        }
+
+        input[type=submit] {
+            float: right;
+        }
+
+        .material-icons {
+            font-size: 25px;
+            color: #000;
+            fill: #000;
+        }
+
+        .ginput_container {
+            &::before {
+                @extend .material-icons;
+                display: block;
+                background-color: $color-v1;
+                color: $white;
+                float: left;
+                padding: 11px 11px 10px;
+                position: absolute;
+            }
+        }
+
+        .person {
+            .ginput_container {
+                &::before {
+                    content: 'person';
+                }
+            }
+        }
+
+        .phone {
+            .ginput_container {
+                &::before {
+                    content: 'call';
+                }
+            }
+        }
+
+        .ginput_container_email {
+            &::before {
+                content: 'email';
+            }
+        }
+
+        .ginput_container_textarea {
+            &::before {
+                content: 'chat_bubble';
+            }
+        }
+
+        .gfield_error {
+            input,
+            textarea{
+                border: none!important;
+
+            }
+        }
+        .gform_wrapper .gform_footer{
+          padding: 0px 0 0px;
+          margin: 10px 0 0;
+        }
+    }
+}

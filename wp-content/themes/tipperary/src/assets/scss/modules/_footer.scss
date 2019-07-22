@@ -1,0 +1,181 @@
+.page-template-template-explore {
+  .footer--bottom {
+    max-width: calc(60.66667% - 1.875rem);
+
+    @include breakpoint(large down){
+      max-width: 100%;
+    }
+  }
+  .footer--widgets {
+    display: none;
+  }
+}
+.footer {
+  color: #000;
+  p {
+    color: #000;
+  }
+  &__container {
+    @include xy-grid-container;
+  }
+
+  &__grid {
+    @include xy-grid;
+
+    &--widgets {
+      padding: 40px 0;
+
+    }
+  }
+
+  &--widgets {
+    background-color: rgba(0, 115, 152, 0.08);
+    border-top: 3px solid $primary-color;
+    p {
+      color: $light-gray;
+      font-size: 13px;
+    }
+  }
+
+  &--bottom {
+    padding: 9px 0px;
+    background-color: $primary-color;
+    p {
+      color: $white;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+
+  &__widget {
+    padding: 20px 0;
+    @include xy-cell(12);
+
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+    @include breakpoint(mobile) {
+      @include xy-cell(6);
+    }
+
+    @include breakpoint(medium) {
+      @include xy-cell(3);
+    }
+  }
+
+  &__copyright {
+    color: $medium-gray;
+    font-size: 13px;
+    background-image: url('../images/inweb-agency-logo.svg');
+    background-repeat: no-repeat;
+    background-position: left 2px;
+    background-size: 46px 15px;
+    @include xy-cell(auto);
+  }
+
+  &__social {
+    @include xy-cell(auto);
+    @include breakpoint(medium) {
+      text-align: right;
+    }
+
+    &-icon {
+      line-height: 1;
+      margin-top: 4px;
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    &-link {
+      color: $white;
+      color: #fff;
+      min-width: 26px;
+      display: inline-block;
+      text-align: center;
+      &--linkedin {
+        font-size: 18px;
+      }
+      &--facebook {
+
+      }
+      &:hover, &:focus {
+        color: $primary-color;
+      }
+    }
+  }
+
+  h6 {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $body-font-family;
+    padding: 0 0 8px;
+    margin: 0 0 15px;
+    letter-spacing: 0.03em;
+
+    &:after {
+      position: absolute;
+      content: " ";
+      width: 30px;
+      height: 2px;
+      left: 0;
+      bottom: 0;
+      display: block;
+      background-color: $color-v2;
+
+      @include breakpoint(small only) {
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-size: 14px;
+      margin-bottom: 5px;
+
+      a {
+        color: $dark-gray-v1;
+
+        &:hover {
+          color: $color-v2;
+        }
+      }
+    }
+  }
+  &--v2 {
+    max-width: calc(60% - 15px);
+    width: 100%;
+    margin-right: calc(40% + 15px);
+    background-color: $white;
+    padding: 25px 30px;
+    border-top: 1px solid $primary-color;
+
+    p {
+      color: $dark-gray;
+    }
+  }
+
+  .social-icon {
+    padding: 10px 13px;
+    display: inline-block;
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .textwidget {
+    figure {
+      margin-bottom: 30px;
+    }
+  }
+
+}

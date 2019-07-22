@@ -1,0 +1,38 @@
+.facetwp-type-checkboxes {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+}
+.facetwp-checkbox {
+  position: relative;
+  background: none;
+  margin: 0;
+
+  &:before {
+    content: ' ';
+    margin-right: 10px
+  }
+  &:after {
+    content: ' ';
+    position: absolute;
+    top: 6px;
+    left: 6px
+  }
+  &.checked:after {
+    content: '\f121';
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+
+  }
+}

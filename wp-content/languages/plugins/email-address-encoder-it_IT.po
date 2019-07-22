@@ -1,0 +1,198 @@
+# Translation of Plugins - Email Address Encoder - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Email Address Encoder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-15 18:32:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Email Address Encoder - Stable (latest release)\n"
+
+#: includes/ui.php:129
+msgid "Polymorphous ROT47/CSS"
+msgstr "Polymorphous ROT47/CSS"
+
+#: includes/ui.php:132
+msgid "State-of-the-art protection against smart robots, but requires JavaScript."
+msgstr "Protezione all'avanguardia contro i robot intelligenti, ma richiede JavaScript."
+
+#: includes/admin.php:486
+msgid "Incompatible plugin detected!"
+msgstr "È stato rilevato un plugin incompatibile!"
+
+#: includes/admin.php:488
+msgid "The \"Ginger – EU Cookie Law\" plugin decodes all HTML entities and thus prevents the Email Address Encoder from working. Please use a different cookie banner plugin, or use the full-page scanner technique of the <a href=\"%s\">Premium version</a>."
+msgstr "Il plugin \"Ginger – EU Cookie Law\" decodifica tutte le entità HTML impedendo il funzionamento di Email Address Encoder. Utilizza un plugin diverso per il banner dei cookie oppure utilizza l'analisi dell'intera pagina presente nella <a href=\"%s\">versione Premium</a>."
+
+#: includes/ui.php:79
+msgid "Nothing, don’t do anything"
+msgstr "Nulla, non fare nulla."
+
+#: includes/ui.php:70
+msgid "Full-page scanner"
+msgstr "Analisi dell'intera pagina"
+
+#: includes/admin.php:207
+msgid "1 Unprotected Email"
+msgstr "1 email non protetta"
+
+#: includes/admin.php:208
+msgid "{number} Unprotected Emails"
+msgstr "{number} email non protette"
+
+#: includes/admin.php:160
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/admin.php:164
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/admin.php:344
+msgid "Sorry, \"%s\" doesn’t appear to be a production domain."
+msgstr "\"%s\" non sembra essere un dominio reale."
+
+#: includes/admin.php:311
+msgid "Protect your email addresses!"
+msgstr "Proteggi i tuoi indirizzi email!"
+
+#: includes/ui.php:30
+msgid "Scan your pages"
+msgstr "Esamina le tue pagine"
+
+#: includes/ui.php:22
+msgid "Your email address..."
+msgstr "Il tuo indirizzo email..."
+
+#: includes/admin.php:365
+msgid "Whoops, something went wrong. Please try again."
+msgstr "Ops, qualcosa è andato storto. Riprova."
+
+#: includes/ui.php:23
+msgid "Notify me"
+msgstr "Avvisami"
+
+#: includes/ui.php:14
+msgid "Receive an email notification when any page on <strong>%s</strong> contains unprotected email addresses."
+msgstr "Ricevi un'email di notifica quando una qualsiasi pagina di <strong>%s</strong> contiene indirizzi email privi di protezione."
+
+#: includes/admin.php:373
+msgid "You’ll receive a notification should your site contain unprotected email addresses."
+msgstr "Riceverai una notifica se il tuo sito contiene indirizzi email non protetti."
+
+#: includes/ui.php:10
+msgid "Signup for automatic warnings"
+msgstr "Iscriviti per ricevere gli avvisi automatici"
+
+#: includes/admin.php:313
+msgid "Receive <a href=\"%1$s\">automatic warnings</a> when your site contains unprotected email addresses, or use the <a href=\"%1$s\">page scanner</a> to test your site manually."
+msgstr "Ricevi <a href=\"%1$s\">avvisi automatici</a> quando il tuo sito contiene indirizzi email non protetti o utilizza <a href=\"%1$s\">lo strumento di analisi delle pagine</a> per verificare il tuo sito manualmente."
+
+#: includes/ui.php:33
+msgid "Don’t want automatic warnings? Use the page scanner to see whether all your email addresses are protected."
+msgstr "Non vuoi gli avvisi automatici? Utilizza lo strumento di analisi delle pagine per capire se tutti i tuoi indirizzi email sono protetti."
+
+#: includes/ui.php:71 includes/ui.php:110 includes/ui.php:120
+#: includes/ui.php:130
+msgid "Premium only"
+msgstr "Solo per utenti Premium"
+
+#: includes/ui.php:154
+msgid "Notices and promotions"
+msgstr "Notifiche e promozioni"
+
+#: includes/ui.php:163
+msgid "Hide notices and promotions for all users"
+msgstr "Nascondi notifiche e promozioni per tutti gli utenti"
+
+#: includes/ui.php:81
+msgid "Turns off email protection."
+msgstr "Disabilita la protezione delle email."
+
+#: includes/ui.php:73
+msgid "Protects all email addresses on your site."
+msgstr "Protegge tutti gli indirizzi email del tuo sito."
+
+#: includes/ui.php:64
+msgid "Protects email addresses in filtered sections only."
+msgstr "Protegge gli indirizzi email delle sole sezioni sottoposte a filtro."
+
+#: includes/ui.php:142
+msgid "Filter priority"
+msgstr "Priorità del filtro"
+
+#: includes/ui.php:147
+msgid "The filter priority specifies when the plugin searches for and encodes email addresses. The default value of <code>1000</code> ensures that all other plugins have finished their execution and no emails are missed."
+msgstr "La priorità di filtro specifica quando il plugin può cercare gli indirizzi email da codificare. Il valore predefinito <code>1000</code> assicura che tutti gli altri plugin sono già stati eseguiti e nessuna email sarà saltata."
+
+#. Plugin URI of the plugin
+msgid "https://encoder.till.im/"
+msgstr "https://encoder.till.im/"
+
+#. Author URI of the plugin
+msgid "https://till.im/"
+msgstr "https://till.im/"
+
+#: includes/admin.php:169
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/ui.php:100
+msgid "HTML entities"
+msgstr "Entità HTML"
+
+#: includes/ui.php:119
+msgid "ROT13 encoding"
+msgstr "Codifica ROT13"
+
+#: includes/ui.php:90 includes/ui.php:95
+msgid "Protect emails using"
+msgstr "Proteggi le email utilizzando"
+
+#: includes/ui.php:122
+msgid "Offers the best protection, but requires JavaScript."
+msgstr "Offre la protezione migliore, ma richiede l'utilizzo di JavaScript."
+
+#: includes/ui.php:112
+msgid "Protects against smart robots without the need for JavaScript."
+msgstr "Protegge dai robot intelligenti senza l'utilizzo di JavaScript."
+
+#: includes/ui.php:62
+msgid "WordPress filters"
+msgstr "Filtri WordPress"
+
+#: includes/ui.php:102
+msgid "Offers good protection and works in most scenarios."
+msgstr "Offre una buona protezione e funziona nella maggior parte degli scenari."
+
+#: includes/admin.php:86
+msgid "Email Encoder"
+msgstr "Email Encoder"
+
+#: includes/ui.php:109
+msgid "CSS direction"
+msgstr "Proprietà direction dei CSS"
+
+#: includes/ui.php:53 includes/ui.php:58
+msgid "Search for emails using"
+msgstr "Cerca le email utilizzando"
+
+#: includes/ui.php:37
+msgid "Open Page Scanner"
+msgstr "Apri lo strumento di analisi"
+
+#. Author of the plugin
+msgid "Till Krüss"
+msgstr "Till Krüss"
+
+#. Plugin Name of the plugin
+#: includes/ui.php:4 includes/admin.php:85
+msgid "Email Address Encoder"
+msgstr "Email Address Encoder"
+
+#. Description of the plugin
+msgid "A lightweight plugin that protects email addresses from email-harvesting robots by encoding them into decimal and hexadecimal entities."
+msgstr "Un plugin leggero per proteggere gli indirizzi email dai robot di raccolta automatica, tramite la loro codifica in entità decimali ed esadecimali."

@@ -1,0 +1,66 @@
+.text-image {
+  background-color: rgba(0, 115, 152, 0.08);
+  padding: 40px 0;
+  @include breakpoint(medium) {
+    padding: 60px 0;
+  }
+
+  @include breakpoint(large) {
+    padding: 90px 0;
+  }
+
+  &__content {
+    width: calc(50% - 3.075rem);
+
+    @include breakpoint(small only) {
+      width: calc(100% - 1.275rem);
+      margin-bottom: 25px;
+    }
+  }
+
+  &__content-title {
+    font-size: 28px;
+    margin-bottom: 22px;
+    letter-spacing: -1px;
+
+    @include breakpoint(medium) {
+      font-size: 32px;
+    }
+
+    @include breakpoint(xlarge) {
+      font-size: 34px;
+    }
+  }
+
+  &__content-text {
+    margin-bottom: 25px;
+
+    p {
+      text-align: justify;
+    }
+  }
+
+  &__image {
+    position: relative;
+
+    &::after {
+      content: '';
+      width: 94%;
+      height: 92%;
+      position: absolute;
+      bottom: 4%;
+      left: 3%;
+      top: 4%;
+      right: 3%;
+      display: block;
+      border: 3px solid $white;
+      @include breakpoint(medium) {
+        border: 5px solid $white;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

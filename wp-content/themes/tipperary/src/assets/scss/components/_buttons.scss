@@ -1,0 +1,24 @@
+// Button
+.button {
+	font-size: 14px;
+	letter-spacing: .5px;
+
+	&.small {
+		padding: 10px 20px;
+	}
+	&.secondary {
+		color: #fff;
+		&:hover, &:focus {
+			color: #fff;
+		}
+	}
+
+	&--large {
+		font-size: 18px;
+		padding: 15px; 
+	}
+
+	&--mt {
+		margin-top: 25px;
+	}
+}

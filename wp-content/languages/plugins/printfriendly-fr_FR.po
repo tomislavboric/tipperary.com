@@ -1,0 +1,364 @@
+# Translation of Plugins - Print, PDF, Email by PrintFriendly - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Print, PDF, Email by PrintFriendly - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-09-02 20:30:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Print, PDF, Email by PrintFriendly - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.PrintFriendly.com"
+msgstr "http://www.PrintFriendly.com"
+
+#. Author of the plugin/theme
+msgid "Print Friendly"
+msgstr "Print Friendly"
+
+#. Description of the plugin/theme
+msgid "PrintFriendly & PDF button for your website. Optimizes your pages and brand for print, pdf, and email."
+msgstr "Bouton d’impression et PDF pour votre site web. Optimise vos pages et votre marque pour impression, pdf et e-mail."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.printfriendly.com"
+msgstr "http://www.printfriendly.com"
+
+#. Plugin Name of the plugin/theme
+msgid "Print Friendly and PDF"
+msgstr "Print Friendly and PDF"
+
+#: pf.php:1393
+msgid "Need help or have suggestions?"
+msgstr "Besoin d’aide ou des suggestions ?"
+
+#: pf.php:1393
+msgid "Give us a rating"
+msgstr "Attribuez-nous une note"
+
+#: pf.php:1393
+msgid "Like PrintFriendly?"
+msgstr "Vous aimez PrintFriendly ?"
+
+#: pf.php:1391
+msgid "Need professional options for your corporate, education, or agency developed website? Check out"
+msgstr "Besoin d’options professionnelles pour votre site web d’entreprise, d’éducation ou d’agence ? Vérifiez"
+
+#: pf.php:1388
+msgid "Cancel"
+msgstr "Annuler"
+
+#: pf.php:1387
+msgid "Save Options"
+msgstr "Enregistrer les options"
+
+#: pf.php:1382
+msgid "Content Algorithm"
+msgstr "Algorithme de contenu"
+
+#: pf.php:1381
+msgid "WP Template"
+msgstr "Modèle WP"
+
+#: pf.php:1379
+msgid "Change this setting if your content is not showing in the preview."
+msgstr "Changez ce réglage si votre contenu n’est pas affiché dans la prévisualisation."
+
+#: pf.php:1379
+msgid "My Page Content Selected By:"
+msgstr "Contenu de ma page sélectionné par :"
+
+#: pf.php:1372
+msgid "Track in Google Analytics"
+msgstr "Suivre dans Google Analytics"
+
+#: pf.php:1369
+msgid "Preview opens a new browser tab."
+msgstr "La prévisualisation s’ouvre dans un nouvel onglet du navigateur."
+
+#: pf.php:1366
+msgid "Preview appears on the page in a Lightbox."
+msgstr "La prévisualisation apparaît sur la page dans une visionneuse."
+
+#: pf.php:1360
+msgid "Use JavaScript"
+msgstr "Utiliser JavaScript"
+
+#: pf.php:1357 pf.php:1362 pf.php:1374
+msgid "Yes"
+msgstr "Oui"
+
+#: pf.php:1356 pf.php:1363 pf.php:1375
+msgid "No"
+msgstr "Non"
+
+#: pf.php:1354
+msgid "Password Protected Content"
+msgstr "Contenu protégé par mot de passe"
+
+#: pf.php:1349
+msgid "https (secure)"
+msgstr "https (sécurisé)"
+
+#: pf.php:1348
+msgid "http (common)"
+msgstr "http (commun)"
+
+#: pf.php:1346
+msgid "Website Protocol"
+msgstr "Protocole du site web"
+
+#: pf.php:1344
+msgid "Webmaster Settings"
+msgstr "Réglages du webmestre"
+
+#: pf.php:1339
+msgid "?"
+msgstr "?"
+
+#: pf.php:1337
+msgid "Custom css url"
+msgstr "URL du CSS personnalisé"
+
+#: pf.php:1330
+msgid "Print"
+msgstr "Imprimer"
+
+#: pf.php:1326
+msgid "On localhost the images can not be included in the PDF. Once the website is live/public images will be included in the PDF."
+msgstr "Sur un hébergement local les images ne sont pas incluses dans le PDF. Une fois le site web en ligne, les images seront incluses dans le PDF."
+
+#: pf.php:1326
+msgid "Developer Note: "
+msgstr "Note du développeur : "
+
+#: pf.php:1320
+msgid "PDF"
+msgstr "PDF"
+
+#: pf.php:1313
+msgid "Email"
+msgstr "E-mail"
+
+#: pf.php:1309
+msgid "Center/Block"
+msgstr "Centrer/bloquer"
+
+#: pf.php:1308
+msgid "Align None"
+msgstr "Aucun alignement"
+
+#: pf.php:1307
+msgid "Align Left"
+msgstr "Aligner à gauche"
+
+#: pf.php:1306
+msgid "Align Right"
+msgstr "Aligner à droite"
+
+#: pf.php:1304
+msgid "Image style"
+msgstr "Style de l’image"
+
+#: pf.php:1300
+msgid "Exclude"
+msgstr "Exclure"
+
+#: pf.php:1299
+msgid "Include"
+msgstr "Inclure"
+
+#: pf.php:1297
+msgid "Images"
+msgstr "Images"
+
+#: pf.php:1293 pf.php:1316 pf.php:1323 pf.php:1333
+msgid "Not Allow"
+msgstr "Ne pas autoriser"
+
+#: pf.php:1292 pf.php:1315 pf.php:1322 pf.php:1332
+msgid "Allow"
+msgstr "Autoriser"
+
+#: pf.php:1290
+msgid "Click-to-delete"
+msgstr "Cliquer pour supprimer"
+
+#: pf.php:1279
+msgid "Upload an Image"
+msgstr "Téléverser une image"
+
+#: pf.php:1278
+msgid "My Website Icon"
+msgstr "Icône de mon site web"
+
+#: pf.php:1276
+msgid "Page header"
+msgstr "En-tête de page"
+
+#: pf.php:1274
+msgid "Print PDF Options"
+msgstr "Options d’impression PDF"
+
+#: pf.php:1256
+msgid "or use shortcode inside your page/article"
+msgstr "ou utilisez un code court dans vos pages/articles"
+
+#: pf.php:1254
+msgid "Add direct to template"
+msgstr "Ajouter directement au modèle"
+
+#: pf.php:1253
+msgid "Taxonomy Pages"
+msgstr "Pages de taxonomie"
+
+#: pf.php:1252
+msgid "Category Pages"
+msgstr "Pages de catégorie"
+
+#: pf.php:1251
+msgid "Homepage"
+msgstr "Page d’accueil"
+
+#: pf.php:1250
+msgid "Pages"
+msgstr "Pages"
+
+#: pf.php:1249
+msgid "Posts"
+msgstr "Articles"
+
+#: pf.php:1247
+msgid "Display button on:"
+msgstr "Afficher le bouton sur :"
+
+#: pf.php:1238
+msgid "Margin Bottom"
+msgstr "Marge inférieure"
+
+#: pf.php:1235
+msgid "Margin Top"
+msgstr "Marge supérieure"
+
+#: pf.php:1232
+msgid "Margin Right"
+msgstr "Marge droite"
+
+#: pf.php:1229
+msgid "Margin Left"
+msgstr "Marge gauche"
+
+#: pf.php:1222
+msgid "Below Content"
+msgstr "Sous le contenu"
+
+#: pf.php:1221
+msgid "Above Content"
+msgstr "Au-dessus du contenu"
+
+#: pf.php:1214
+msgid "None"
+msgstr "Aucun"
+
+#: pf.php:1213
+msgid "Center"
+msgstr "Centré"
+
+#: pf.php:1212
+msgid "Right Align"
+msgstr "Aligné à droite"
+
+#: pf.php:1211
+msgid "Left Align"
+msgstr "Aligné à gauche"
+
+#: pf.php:1204
+msgid "Button Positioning"
+msgstr "Positionnement du bouton"
+
+#: pf.php:1192
+msgid "Text Size"
+msgstr "Taille du texte"
+
+#: pf.php:1185
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: pf.php:1181
+msgid "Text"
+msgstr "Texte"
+
+#: pf.php:1175
+msgid "Ex: http://www.example.com/<br>Ex: /wp/wp-content/uploads/example.png"
+msgstr "Ex: http://www.example.com/<br>Ex: /wp/wp-content/uploads/example.png"
+
+#: pf.php:1173
+msgid "Enter Image URL"
+msgstr "Saisissez l’URL de l’image"
+
+#: pf.php:1170
+msgid "Custom Button"
+msgstr "Bouton personnalisé"
+
+#: pf.php:1147
+msgid "Pick Your Button Style"
+msgstr "Choisissez votre style de bouton"
+
+#: pf.php:1142
+msgid "Print Friendly & PDF Settings"
+msgstr "Réglages de Print Friendly & PDF"
+
+#: pf.php:1136
+msgid "Options:"
+msgstr "Options :"
+
+#: pf.php:1135
+msgid "Currently in Debug Mode. Following information is visible in debug mode only:"
+msgstr "Actuellement en mode débogage. Les informations suivantes sont visibles uniquement en mode débogage :"
+
+#: pf.php:1116
+msgid "Only display when post is in:"
+msgstr "Afficher uniquement lorsque l’article est dans :"
+
+#: pf.php:699
+msgid "Settings"
+msgstr "Réglages"
+
+#: pf.php:660
+msgid "Frequently Asked Questions"
+msgstr "Foire aux questions"
+
+#: pf.php:660
+msgid "Be sure to check out the %s!"
+msgstr "Assurez-vous de bien vérifier le %s !"
+
+#: pf.php:659
+msgid "Need Help?"
+msgstr "Besoin d’aide ?"
+
+#: pf.php:646
+msgid "Print Friendly & PDF"
+msgstr "Print Friendly & PDF"
+
+#: pf.php:646
+msgid "PrintFriendly Options"
+msgstr "Options de PrintFriendly"
+
+#: pf.php:593
+msgid "No valid custom logo url received, please enter a valid url to use a custom logo."
+msgstr "Aucune URL de logo personnalisé valide reçue, veuillez saisir une URL valide pour utiliser un logo personnalisé."
+
+#: pf.php:513
+msgid "The color you entered is not valid, it must be a valid hexadecimal RGB font color."
+msgstr "La couleur que vous avez saisie est non valide, ce doit être une couleur de police RGB hexadécimale valide."
+
+#: pf.php:505
+msgid "The text size you entered is invalid, please stay between 9px and 25px"
+msgstr "La taille du texte que vous avez saisi est non valide, veuillez rester entre 9 et 25 px."
+
+#: pf.php:496
+msgid "No valid custom image url received, please enter a valid url to use a custom image."
+msgstr "Aucune URL d’image personnalisée valide reçue, veuillez saisir une URL valide pour utiliser une image personnalisée."

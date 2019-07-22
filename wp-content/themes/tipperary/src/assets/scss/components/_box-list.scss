@@ -1,0 +1,136 @@
+.box-list {
+	padding: 40px 0px;
+	background-color: rgba(0, 115, 152, 0.08);
+
+	&__content {
+		/*position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: column;*/
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+	}
+
+	&__title {
+		font-size: 14px;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0;
+		line-height: 1.4;
+
+		@include breakpoint(medium) {
+			font-size: 18px;
+		}
+
+		@include breakpoint(large) {
+			font-size: 21px;
+		}
+	}
+
+	&__image {
+		margin-bottom: 10px;
+	}
+
+	&__box {
+		position: relative;
+		padding: 4%;
+
+		&:hover {
+			color: $white;
+		}
+
+		&:first-child {
+			background-color: $primary-color;
+		}
+
+		&:nth-child(2) {
+			background-color: $color-v2;
+		}
+
+		&:nth-child(3) {
+			background-color: $color-v3;
+		}
+
+		&:nth-child(4) {
+			background-color: $color-v4;
+		}
+
+		&:after, &:before{
+			content: "";
+			width: 90%;
+			height: 90%;
+			border-color: $white;
+			border-style: solid;
+			border-width: 0px;
+			position: absolute;
+			transition: .5s;
+			pointer-events: none;
+		}
+
+		&:before{
+			top: 5%;
+			left: 5%;
+			border-top-width: 3px;
+			border-left-width: 3px;
+			@include breakpoint(medium) {
+				border-top-width: 5px;
+				border-left-width: 5px;				
+			}
+		}
+
+		&:after{
+			bottom: 5%;
+			right: 5%;
+			border-bottom-width: 3px;
+			border-right-width: 3px;
+			@include breakpoint(medium) {
+				border-bottom-width: 5px;
+				border-right-width: 5px;
+			}
+		}
+
+		&:hover:after, &:hover:before{
+			width: 10%;
+			height: 10%;
+		}
+
+		i {
+			width: 100%;
+			height: 45px;
+			font-size: 45px;
+			line-height: 1;
+			margin-bottom: 10px;
+
+			@include breakpoint(mobile down) {
+				margin-top: auto;
+			}
+
+
+		}
+	}
+
+	&__box-link {
+		color: $white;
+		text-align: center;
+		display: block;
+		transition: .5s;
+		cursor: pointer;
+		position: relative;
+		width: 100%;
+		padding-top: 100%;
+	}
+
+	&__box-icon {
+		display: block;
+		margin: 0 auto 15px;
+	}
+
+}

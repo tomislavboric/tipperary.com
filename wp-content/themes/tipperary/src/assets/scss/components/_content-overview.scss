@@ -1,0 +1,17 @@
+.content-overview {
+  padding: $global-padding-v1 0px;
+
+  &__header {
+    text-align: center;
+  }
+
+  &__title { 
+    font-weight: 400;
+    margin-bottom: 22px;
+  }
+
+  &__content {
+    font-size: 16px;
+    text-align: center;
+  }
+}

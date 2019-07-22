@@ -1,0 +1,20 @@
+.contact-page {
+  
+  .content-form {
+    background-color: $light-blue-v1;
+  }
+
+  .main-grid {
+	margin: 0 auto;
+	flex-flow: column; 
+	padding: $global-padding-v1-resp 0px;
+
+    @include breakpoint(medium) {
+        padding: $global-padding-v2 0px;
+    }
+
+    @include breakpoint(xlarge) {
+        padding: $global-padding-v2 0px;
+    }  
+  }
+}

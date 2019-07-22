@@ -1,0 +1,49 @@
+.box-list-icon {
+    background-color: $white;
+    text-align: center;
+    padding: 40px 0;
+    @include breakpoint(medium) {
+        padding: 60px 0;
+    }
+
+    &__box {
+        @include breakpoint(medium) {
+            margin: 10px 0;
+        }
+    }
+
+    &__box-title {
+        font-family: $body-font-family;
+        color: $body-font-color;
+        line-height: 1.6;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        transition: all 0.25s ease-out;
+    }
+
+    &__box-link {
+        display: inline-block;
+        max-width: 190px;
+        text-align: center;
+        &:hover {
+            h5 {
+                color: $primary-color;
+            }
+        }
+    }
+    &__box-figure {
+        height: 93px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__box-icon {
+        display: block;
+        margin: 0 auto 15px;
+    }
+}

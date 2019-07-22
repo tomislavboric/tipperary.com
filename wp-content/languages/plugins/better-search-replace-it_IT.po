@@ -1,0 +1,242 @@
+# Translation of Plugins - Better Search Replace - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Better Search Replace - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-03-18 13:34:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Better Search Replace - Development (trunk)\n"
+
+#: templates/bsr-dashboard.php:115
+msgid "You'll also receive our awesome weekly posts from the Delicious Brains blog. Unsubscribe anytime."
+msgstr "Riceverai anche dei fantastici post settimanali dal blog di Delicious Brains. Puoi cancellarti in ogni momento."
+
+#: templates/bsr-dashboard.php:126
+msgid "via WordPress.org"
+msgstr "tramite WordPress.org"
+
+#: templates/bsr-dashboard.php:111
+msgid "Send me the coupon"
+msgstr "Inviami un coupon"
+
+#: templates/bsr-dashboard.php:104
+msgid "Last Name"
+msgstr "Cognome"
+
+#: templates/bsr-dashboard.php:100
+msgid "First Name"
+msgstr "Nome"
+
+#: templates/bsr-dashboard.php:96
+msgid "Your Email"
+msgstr "La tua email"
+
+#: templates/bsr-dashboard.php:92
+msgid "Submit your name and email and we'll send you a coupon for 20% off your upgrade to the pro version."
+msgstr "Invia il tuo nome e il tuo indirizzo email e ti manderemo un coupon con lo sconto del 20% per passare alla versione pro."
+
+#: templates/bsr-dashboard.php:87
+msgid "20% Off!"
+msgstr "Sconto del 20%!"
+
+#: templates/bsr-dashboard.php:79
+msgid "Detailed report of exactly what was replaced"
+msgstr "Report dettagliato di ciò che è stato sostituito"
+
+#: templates/bsr-dashboard.php:78
+msgid "Import an SQL file and run a find/replace on it"
+msgstr "Importa un file SQL e fai un cerca e sostituisci su quello"
+
+#: templates/bsr-dashboard.php:77
+msgid "Backup to an SQL file"
+msgstr "Backup in un file SQL"
+
+#. Author of the plugin
+msgid "Delicious Brains"
+msgstr "Delicious Brains"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://bettersearchreplace.com"
+msgstr "https://bettersearchreplace.com"
+
+#: includes/class-bsr-admin.php:232
+msgid "seconds"
+msgstr "secondi"
+
+#: includes/class-bsr-ajax.php:153
+msgid "Processing table %d of %d: %s"
+msgstr "Elaborazione tabella %d di %d: %s"
+
+#: includes/class-bsr-admin.php:73
+msgid "Processing..."
+msgstr "Elaborazione in corso..."
+
+#. Description of the plugin
+msgid "A small plugin for running a search/replace on your WordPress database."
+msgstr "Un semplice plugin per eseguire cerca/sostituisci nel tuo database di WordPress"
+
+#: templates/bsr-settings.php:33
+msgid "If you're noticing timeouts or getting a white screen while running a search replace, try decreasing this value."
+msgstr "Se durante un cerca e sostituisci ricevi un timeout oppure lo schermo diventa bianco, prova a diminuire questo valore."
+
+#: templates/bsr-settings.php:31
+msgid "Current Setting: "
+msgstr "Impostazioni attuali:"
+
+#: templates/bsr-settings.php:27
+msgid "Max Page Size"
+msgstr "Massima dimensione della pagina"
+
+#: templates/bsr-search-replace.php:76
+msgid "Run Search/Replace"
+msgstr "Esegui Cerca/Sostituisci"
+
+#: templates/bsr-search-replace.php:65
+msgid "If checked, no changes will be made to the database, allowing you to check the results beforehand."
+msgstr "Se spuntata, nessun cambiamento verrà fatto al database, permettendoti di fare un controllo di ciò che succederebbe."
+
+#: templates/bsr-search-replace.php:62
+msgid "Run as dry run?"
+msgstr "Vuoi fare solo una prova?"
+
+#: templates/bsr-search-replace.php:57
+msgid "If left unchecked, all database columns titled 'guid' will be skipped."
+msgstr "Se lasciata non spuntata, tutte le colonne del database intitolate 'guid' saranno saltate."
+
+#: templates/bsr-search-replace.php:54
+msgid "Replace GUIDs<a href=\"http://codex.wordpress.org/Changing_The_Site_URL#Important_GUID_Note\" target=\"_blank\">?</a>"
+msgstr "Sostituisci GUID<a href=\"http://codex.wordpress.org/Changing_The_Site_URL#Important_GUID_Note\" target=\"_blank\">?</a>"
+
+#: templates/bsr-search-replace.php:49
+msgid "Searches are case-sensitive by default."
+msgstr "Le ricerche sono sensibili alle maiuscole per impostazione predefinita."
+
+#: templates/bsr-search-replace.php:46
+msgid "Case-Insensitive?"
+msgstr "Non sensibile alle maiuscole?"
+
+#: templates/bsr-search-replace.php:41
+msgid "Select multiple tables with Ctrl-Click for Windows or Cmd-Click for Mac."
+msgstr "Seleziona più tabelle con CTRL-clic per Windows o Cmd-clic per Mac."
+
+#: templates/bsr-search-replace.php:38
+msgid "Select tables"
+msgstr "Seleziona le tabelle"
+
+#: templates/bsr-search-replace.php:33
+msgid "Replace with"
+msgstr "Sostuisci con"
+
+#: templates/bsr-search-replace.php:28
+msgid "Search for"
+msgstr "Cerca per"
+
+#: templates/bsr-search-replace.php:23
+msgid "<strong>WARNING:</strong> Make sure you backup your database before using this plugin!"
+msgstr "<strong>ATTENZIONE:</strong> prima di utilizzare questo plugin assicurati di effettuare un backup del tuo database!"
+
+#: templates/bsr-search-replace.php:22
+msgid "To get started, use the form below to enter the text to be replaced and select the tables to update."
+msgstr "Per iniziare, utilizza il modulo sottostante per inserire il testo che deve essere sostituito e seleziona le tabelle da aggiornare."
+
+#: templates/bsr-search-replace.php:21
+msgid "This tool allows you to search and replace text in your database (supports serialized arrays and objects)."
+msgstr "Questo strumento ti permette di cercare e sostituire del testo nel tuo database (supporta array serializzati e oggetti)."
+
+#: templates/bsr-help.php:30
+msgid "Download System Info"
+msgstr "Scarica le informazioni del sistema"
+
+#: templates/bsr-help.php:23
+msgid "Found a bug or have a feature request? Please submit an issue on <a href=\"%s\">GitHub</a>!"
+msgstr "Hai trovato un bug o vuoi chiedere una nuova funzionalità? Invia una segnalazione (issue) su <a href=\"%s\">GitHub</a>!"
+
+#: templates/bsr-help.php:21
+msgid "For premium features and priority email support, <a href=\"%s\" style=\"font-weight:bold;\">upgrade to pro</a>."
+msgstr "Per le caratteristiche premium e il supporto email prioritario, <a href=\"%s\" style=\"font-weight:bold;\">passa alla versione pro</a>."
+
+#: templates/bsr-help.php:19
+msgid "Free support is available on the <a href=\"%s\">plugin support forums</a>."
+msgstr "Supporto gratuito è disponibile sui <a href=\"%s\">forum di supporto del plugin</a>."
+
+#: templates/bsr-help.php:17
+msgid "Help & Troubleshooting"
+msgstr "Aiuto e risoluzione dei problemi"
+
+#: templates/bsr-dashboard.php:48
+msgid "Help"
+msgstr "Aiuto"
+
+#: templates/bsr-dashboard.php:47
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: templates/bsr-dashboard.php:46
+msgid "Search/Replace"
+msgstr "Cerca/Sostituisci"
+
+#: includes/class-bsr-db.php:285
+msgid "Error updating row: %d."
+msgstr "Errore durante l'aggiornamento della riga: %d."
+
+#: includes/class-bsr-db.php:85
+msgid "(%s MB)"
+msgstr "(%s MB)"
+
+#: templates/bsr-dashboard.php:74 includes/class-bsr-admin.php:288
+msgid "Upgrade to Pro"
+msgstr "Aggiorna alla versione Pro"
+
+#: includes/class-bsr-admin.php:241
+msgid "Learn more about the pro version"
+msgstr "Ulteriori informazioni sulla versione pro"
+
+#: includes/class-bsr-admin.php:240
+msgid "Want even more details, easy database migrations, and saved search/replace profiles?"
+msgstr "Vuoi più dettagli, migrazioni di database più facili, e poter salvare profili di ricerca e sostituzione?"
+
+#: includes/class-bsr-admin.php:211
+msgid "Time"
+msgstr "Data"
+
+#: includes/class-bsr-admin.php:211
+msgid "Rows Updated"
+msgstr "Righe Aggiornate"
+
+#: includes/class-bsr-admin.php:211
+msgid "Changes Found"
+msgstr "Modifiche Trovate"
+
+#: includes/class-bsr-admin.php:211
+msgid "Table"
+msgstr "Tabella"
+
+#: includes/class-bsr-admin.php:112
+msgid "<p>During the search/replace, <strong>%d</strong> tables were searched, with <strong>%d</strong> cells changed in <strong>%d</strong> updates.</p><p><a href=\"%s\" class=\"thickbox\" title=\"Search/Replace Details\">Click here</a> for more details.</p>"
+msgstr "<p>Durante il cerca/sostituisci, <strong>%d</strong> tabelle sono state analizzate, con <strong>%d</strong> celle modificate in <strong>%d</strong> aggiornamenti.</p><p><a href=\"%s\" class=\"thickbox\" title=\"Dettagli cerca/sostituisci\">Fai clic qui</a> per maggiori dettagli.</p>"
+
+#: includes/class-bsr-admin.php:105
+msgid "<p><strong>DRY RUN:</strong> <strong>%d</strong> tables were searched, <strong>%d</strong> cells were found that need to be updated, and <strong>%d</strong> changes were made.</p><p><a href=\"%s\" class=\"thickbox\" title=\"Dry Run Details\">Click here</a> for more details, or use the form below to run the search/replace.</p>"
+msgstr "<p><strong>ESECUZIONE DI PROVA:</strong> <strong>%d</strong> tabelle sono state analizzate; sono state trovate <strong>%d</strong> celle da aggiornare e <strong>%d</strong> modifiche sono state fatte.</p><p><a href=\"%s\" class=\"thickbox\" title=\"Dettagli dell'esecuzione di prova\">Fai clic qui</a> per maggiori dettagli oppure utilizza il modulo sottostante per eseguire il cerca/sostituisci.</p>"
+
+#. Plugin Name of the plugin
+#: templates/bsr-dashboard.php:34 includes/class-bsr-admin.php:85
+msgid "Better Search Replace"
+msgstr "Better Search Replace"
+
+#: includes/class-bsr-admin.php:72
+msgid "An error occurred processing your request. Try decreasing the \"Max Page Size\", or contact support."
+msgstr "Si è verificato un errore durante l'elaborazione della tua richiesta. Prova a diminuire la \"Massima dimensione della pagina\" (Max Page Size), oppure contatta il supporto."
+
+#: includes/class-bsr-admin.php:71
+msgid "Please select the tables that you want to update."
+msgstr "Si prega di selezionare le tabelle che si desidera aggiornare."
+
+#: includes/class-bsr-admin.php:70
+msgid "No search string was defined, please enter a URL or string to search for."
+msgstr "Nessuna stringa di ricerca è stata definita, inserisci un URL o una stringa da cercare."

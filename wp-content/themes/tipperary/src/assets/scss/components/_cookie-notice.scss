@@ -1,0 +1,33 @@
+.cookie-notice-container {
+    .cn-button {
+        position: relative;
+        font-size: 13px;
+        line-height: 21px;
+        color: #fff;
+        font-weight: normal;
+        margin: 0px;
+        padding: 8px 18px;
+        height: auto;
+        white-space: normal;
+        border-radius: 3px;
+        box-sizing: border-box;
+        border: 1px solid $color-v1;
+        background-color: $color-v1;
+        background-image: none;       
+
+        &:hover {
+            border: 1px solid $color-v2;
+            background-color: $color-v2;
+        }
+    }
+
+    #cn-notice-text a {
+        color: $white;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: none;
+        }        
+    }
+}

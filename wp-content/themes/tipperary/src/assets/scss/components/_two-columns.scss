@@ -1,0 +1,10 @@
+.two-columns {
+
+  .cell {
+    margin-bottom: $global-margin;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

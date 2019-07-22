@@ -1,0 +1,272 @@
+.main-grid__explore  {
+  padding-top: 105px;
+
+  @include breakpoint(large down){
+    padding-top: 125px;
+  }
+
+  .gm-style img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .facetwp-pager {
+    @include breakpoint(mobile down){
+      padding-bottom: 30px;
+    }
+  }
+
+}
+.location-listings {
+  &__listing-toggle-inner {
+    display: none;
+  }
+
+  @include breakpoint(large down){
+    &__listing-toggle-inner {
+      max-width: 100%;
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+    }
+    &__listing-toggle {
+      text-align: center;
+      padding: 6px 18px;
+      border: 2px solid #efefef;
+      display: block;
+      width: 50%;
+      color: $dark-gray;
+      font-size: 14px;
+      line-height: 1;
+
+      &:first-child {
+          border-bottom-left-radius: $global-radius;
+          border-top-left-radius: $global-radius;
+      }
+      &:last-child {
+        border-bottom-right-radius: $global-radius;
+        border-top-right-radius: $global-radius;
+      }
+      &.active {
+        border-color: $primary-color;
+        border-width: 2px;
+      }
+    }
+  }
+
+
+  &__listings-display {
+    @include xy-cell(7);
+    height: auto;
+    padding: 20px 0px 0;
+
+    @include breakpoint(large down){
+      @include xy-cell(12);
+    }
+  }
+  &__filters-container {
+    @include xy-grid-layout(3, '.facetwp-facet-categories');
+    @include xy-grid-layout(2, '.facetwp-facet-search ');
+    @include xy-grid-layout(6, '.button ');
+    margin-bottom: 40px;
+
+
+    @include breakpoint(mobile down){
+      margin-bottom: 20px;
+    }
+
+    @include breakpoint(large down){
+      @include xy-grid-layout(1, '.facetwp-facet-categories');
+      @include xy-grid-layout(1, '.facetwp-facet-search ');
+      @include xy-grid-layout(1, '.button ');
+    }
+
+    .facetwp-facet {
+      margin-bottom: 0px;
+
+      @include breakpoint(large down){
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__filters-interests {
+
+    .facetwp-facet-interests {
+      @include xy-grid;
+
+      @include breakpoint(large up){
+        @include xy-grid-layout(5, '.facetwp-checkbox');
+
+      }
+
+      @include breakpoint(xxlarge down){
+        @include xy-grid-layout(4, '.facetwp-checkbox');
+      }
+
+      @include breakpoint(medium down){
+        @include xy-grid-layout(2, '.facetwp-checkbox');
+      }
+
+      @include breakpoint(mobile down){
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__sorting-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    //padding: 0 0 0 15px;
+    margin-bottom: 30px;
+
+    .facetwp-sort {
+      margin-left: auto;
+    }
+    .facetwp-sort-select {
+      color: $medium-gray;
+      border-color: $light-gray;
+      background-color: #ffffff;
+      height: auto;
+      font-size: 14px;
+    }
+  }
+  &__map-wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 105px;
+    width: 41.66667%;
+
+    @include breakpoint(large down){
+      position: relative;
+      top: 0;
+      padding-top: 20px;
+      display: none;
+      height: calc(100vh - 85px) !important;
+      width: 100%;
+    }
+  }
+  &__map {
+    height: calc(100vh - 105px);
+
+    .facetwp-type-map {
+      height: 100%;
+    }
+
+    button.gm-ui-hover-effect {
+      top: 0px!important;
+      right: 0px!important;
+      font-size: 16px;
+
+      img {
+        width: 18px!important;
+        height: 18px!important;
+      }
+    }
+  }
+  &__info-box {
+    max-width: 360px;
+    width: 100%;
+    position: relative;
+    padding-right: 100px;
+  }
+  &__info-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+  }
+  &__info-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__info-locations {
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+  &__info-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+}
+
+.gm-style .gm-style-iw-c {
+  padding: 15px!important;
+}
+.map-marker-info {
+  width: 275px;
+
+  &__image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+  }
+  &__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px 100px 10px 0!important;
+  }
+  &__hour-status {
+    margin: 10px 100px 10px 0!important;
+    display: block;
+    color: #34c475;
+  }
+  &__address {
+    margin: 10px 100px 0px 0!important;
+    display: block;
+  }
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+// Facetwp styling
+.facetwp-checkbox, .facetwp-counts {
+    font-size: 14px;
+  }
+.facetwp-counter {
+  display: none;
+}
+.button--clear {
+  margin-bottom: 40px;
+}
+
+/** street view icon - yellow man **/
+.gm-svpc {
+	display: none;
+}
+
+/** map/satillite toggle **/
+.gm-style-mtc {
+	display: none;
+}

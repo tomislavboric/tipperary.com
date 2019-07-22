@@ -1,0 +1,175 @@
+// Image carousel
+#image-carousel {
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.image-carousel {
+    &__figure {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+
+        //@include overlay;
+
+        &:after {
+          opacity: 0;
+        }
+    }
+    .owl-item:not(.center) {
+        .image-carousel__figure {
+
+            &:after {
+              opacity: 1;
+              transition: opacity 0.4s ease-in;
+            }
+        }
+    }
+
+    &__image {
+        //box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+        //border-radius: 3px;
+    }
+
+    &__wrapper {
+        @include breakpoint(medium) {
+            margin-right: -22%;
+            margin-left: -22%;
+        }
+        @include breakpoint(large) {
+            margin-right: -20%;
+            margin-left: -20%;
+        }
+        @include breakpoint(xlarge) {
+            margin-right: -15%;
+            margin-left: -15%;
+        }
+        @include breakpoint(xxlarge) {
+            margin-right: -12%;
+            margin-left: -12%;
+        }
+    }
+}
+
+// Owl Carousel Arrows & Dots
+.owl-carousel {
+    .owl-next, .owl-prev {
+        font-size: 50px;
+        line-height: 0;
+        text-shadow: 0 0 1px rgba(0,0,0,.5);
+        opacity: .75;
+        color: $black;
+        transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        &:hover {
+            opacity: .9;
+        }
+        &.disabled {
+            opacity: .3;
+        }
+    }
+    &.outside-arrows {
+        .owl-nav {
+            @include breakpoint(medium down) {
+                display: none;
+            }
+            .owl-next, .owl-prev {
+                font-size: 60px;
+                color: $black;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+            .owl-prev {
+                left: -60px;
+
+            }
+            .owl-next {
+                right: -60px;
+            }
+        }
+    }
+    &.inside-arrows {
+        .owl-nav {
+            display: block !important;
+        }
+        .owl-next, .owl-prev {
+            color: $white;
+            padding: 0 30px;
+        }
+        .owl-prev {
+            left: 0;
+        }
+        .owl-next {
+            right: 0;
+        }
+    }
+    &.full-height {
+        .owl-next, .owl-prev {
+            height: 100%;
+            i {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    &.corner-arrows {
+        .owl-nav {
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+        .owl-next, .owl-prev {
+            float: left;
+            color: $white;
+            padding: 0;
+            margin: 0 4px;
+            background-color: rgba($black, .6);
+            &:hover {
+                background-color: rgba($black, .8);
+            }
+        }
+        i {
+            font-size: 36px;
+        }
+    }
+}
+.owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 10px;
+    @include breakpoint(medium) {
+        margin-top: 20px;
+    }
+    .owl-dot {
+        display: inline-block;
+        zoom: 1;
+        span {
+            width: 12px;
+            height: 12px;
+            margin: 5px 7px;
+            display: block;
+            -webkit-backface-visibility: visible;
+            transition: opacity .2s ease;
+            -webkit-border-radius: 30px;
+            border-radius: 30px;
+            border: 1px solid $blue;
+        }
+        &.active, &:hover {
+            span {
+                background-color: $primary-color;
+                border-color: $blue;
+            }
+        }
+    }
+}

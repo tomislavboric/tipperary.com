@@ -1,0 +1,63 @@
+.content-contact {
+
+    //background-color: $light-blue-v1;
+    //padding: $global-padding-v2 0px;
+
+    &__title {
+        font-weight: 100;
+        text-align: center;
+    }
+
+    &__content {
+      height: 160px;
+      padding-top: 20px;
+    }
+
+    &__icon {
+        display: block;
+        margin-bottom: 15px;
+        position: relative;
+        height: 60px;
+        i {
+            @include absolute-center;
+        }
+    }
+
+    &__link {
+        text-align: center;
+        color: $body-font-color;
+        //@include vertical-center;
+        //display: block;
+        //width: 100%;
+
+        &:hover {
+            color: $blue;
+        }
+
+        i {
+            font-size: 70px;
+            color: $color-v1;
+        }
+
+        @include breakpoint(small only) {
+            padding: $global-padding-v1-resp 0px;
+        }
+    }
+
+    &__link-title {
+        font-family: $body-font-family;
+        font-size: 16px;
+        line-height: 25px;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    &__data {
+        padding: $global-padding-v1 0px;
+    }
+}
+
+@include breakpoint(medium down) {
+  @include xy-grid-layout(2, '.content-contact__content');
+}
