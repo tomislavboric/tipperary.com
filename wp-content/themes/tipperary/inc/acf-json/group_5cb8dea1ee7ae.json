@@ -1,10 +1,10 @@
 {
     "key": "group_5cb8dea1ee7ae",
-    "title": "order_no",
+    "title": "Order Number",
     "fields": [
         {
             "key": "field_5cb8dea3818e0",
-            "label": "order_no",
+            "label": "Order Number",
             "name": "order_no",
             "type": "text",
             "instructions": "",
@@ -37,7 +37,7 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": true,
+    "active": 1,
     "description": "",
-    "modified": 1555620857
+    "modified": 1563219659
 }

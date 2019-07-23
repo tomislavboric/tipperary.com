@@ -63,7 +63,9 @@
             "max_width": "",
             "max_height": "",
             "max_size": "",
-            "mime_types": ""
+            "mime_types": "",
+            "return_format": "array",
+            "preview_size": "medium"
         },
         {
             "key": "field_5ca6491d8e014",
@@ -322,7 +324,9 @@
                             "max_width": "",
                             "max_height": "",
                             "max_size": "",
-                            "mime_types": ""
+                            "mime_types": "",
+                            "return_format": "array",
+                            "preview_size": "medium"
                         },
                         {
                             "key": "field_5ca64abc8e021",
@@ -386,5 +390,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1556963158
+    "modified": 1563241712
 }

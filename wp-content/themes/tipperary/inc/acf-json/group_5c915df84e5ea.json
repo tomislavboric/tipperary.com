@@ -16,8 +16,8 @@
                 "id": ""
             },
             "collapsed": "",
-            "min": 4,
-            "max": 4,
+            "min": 0,
+            "max": 0,
             "layout": "table",
             "button_label": "Add Box",
             "sub_fields": [
@@ -44,7 +44,7 @@
                     "key": "field_5c9fb04978239",
                     "label": "Icon",
                     "name": "icon",
-                    "type": "select",
+                    "type": "image",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -53,19 +53,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "choices": {
-                        "place": "Place",
-                        "local_activity": "Local activity",
-                        "restaurant_menu": "Restaurant Menu",
-                        "hotel": "Hotel"
-                    },
-                    "default_value": [],
-                    "allow_null": 0,
-                    "multiple": 0,
-                    "ui": 1,
-                    "ajax": 0,
-                    "return_format": "value",
-                    "placeholder": ""
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
                 },
                 {
                     "key": "field_5c915e1e008c4",
@@ -84,8 +81,8 @@
                         "page"
                     ],
                     "taxonomy": "",
-                    "allow_null": 0,
-                    "allow_archives": 1,
+                    "allow_null": 1,
+                    "allow_archives": 0,
                     "multiple": 0
                 }
             ]
@@ -94,9 +91,9 @@
     "location": [
         [
             {
-                "param": "page_template",
+                "param": "page_type",
                 "operator": "==",
-                "value": "default"
+                "value": "front_page"
             }
         ]
     ],
@@ -110,5 +107,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1563216614
+    "modified": 1563219747
 }

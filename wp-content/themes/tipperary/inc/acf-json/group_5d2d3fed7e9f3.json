@@ -1,0 +1,85 @@
+{
+    "key": "group_5d2d3fed7e9f3",
+    "title": "Section - Partners",
+    "fields": [
+        {
+            "key": "field_5d2d40036e685",
+            "label": "Logos",
+            "name": "logos",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Logo",
+            "sub_fields": [
+                {
+                    "key": "field_5d2d400a6e686",
+                    "label": "Logo",
+                    "name": "logo",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium_large",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5d2d401d6e687",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 6,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1563246745
+}

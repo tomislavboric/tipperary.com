@@ -410,13 +410,6 @@ class FacetWP_Renderer
         // Store the unfiltered post IDs
         FWP()->unfiltered_post_ids = $post_ids;
 
-        // Store post IDs as array keys for faster lookups below
-        $id_lookup = [];
-
-        foreach ( $post_ids as $post_id ) {
-            $id_lookup[ $post_id ] = true;
-        }
-
         foreach ( $this->facets as $facet_name => $the_facet ) {
             $facet_type = $the_facet['type'];
 
@@ -463,6 +456,9 @@ class FacetWP_Renderer
             if ( 'search' == $facet_type ) {
                 $this->is_search = true;
             }
+
+            // Store post IDs as array keys for faster lookups
+            $id_lookup = array_flip( $post_ids );
 
             // Preserve post ID order
             $intersected_ids = [];

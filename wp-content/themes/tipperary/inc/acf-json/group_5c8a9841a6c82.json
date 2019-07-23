@@ -43,6 +43,22 @@
             "mime_types": ""
         },
         {
+            "key": "field_5cb0a43a3cd65",
+            "label": "Featured Images",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
             "key": "field_5cc736e3f6887",
             "label": "Favicon",
             "name": "favicon",
@@ -65,22 +81,6 @@
             "max_height": "",
             "max_size": "",
             "mime_types": ""
-        },
-        {
-            "key": "field_5cb0a43a3cd65",
-            "label": "Featured Images",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "placement": "top",
-            "endpoint": 0
         },
         {
             "key": "field_5cb0a44d3cd66",
@@ -182,10 +182,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_5cc97d8bd2343",
-            "label": "Social icons",
-            "name": "social_icons",
-            "type": "clone",
+            "key": "field_5d2d3a9af3e0d",
+            "label": "Facebook",
+            "name": "facebook",
+            "type": "url",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -194,13 +194,40 @@
                 "class": "",
                 "id": ""
             },
-            "clone": [
-                "group_573ae9761a9fa"
-            ],
-            "display": "seamless",
-            "layout": "block",
-            "prefix_label": 0,
-            "prefix_name": 0
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d2d3acef3e0f",
+            "label": "Twitter",
+            "name": "twitter",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5d2d3aa6f3e0e",
+            "label": "Instagram",
+            "name": "instagram",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
         }
     ],
     "location": [
@@ -220,5 +247,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1556708772
+    "modified": 1563245306
 }

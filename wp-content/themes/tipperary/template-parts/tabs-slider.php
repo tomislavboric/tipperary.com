@@ -1,7 +1,7 @@
 <section class="tabs-slider">
 
 	<?php
-	if( $itinerary_day_stops ){ ?>
+	if( $itinerary_day_stops ){ ?> 
 		<ul class="tabs-slider__list sub-header js-swipe-tabs">
 		<?php
 		$i = 0;
@@ -12,13 +12,13 @@
 		<?php
 		}
 		?>
-		</ul>
+		</ul> 
 	<?php
 	}
 	?>
 
-	<div class="tabs-slider__container js-swipe-tabs-container">
-
+	<div class="tabs-slider__container js-swipe-tabs-container"> 
+		 
 		<?php
 		if( $itinerary_day_stops ){ $i = 0;
 			foreach ( $itinerary_day_stops as $itinerary_day_stop ) { $i++;
@@ -45,12 +45,12 @@
 
             	<?php
 				    if( ($itinerary_day_stop_type == 'image') && (!empty($itinerary_day_stop_image))) { ?>
-					<div id="tab_slider-<?php echo rand(0, 100) ?>" class="cell medium-6 large-6 tabs-slider__slider">
+					<div class="cell medium-6 large-6 tabs-slider__slider" > 
 						<?php foreach($itinerary_day_stop_image as $image){ ?>
 						<figure class="tabs-slider__image shadow">
 						  <img src="<?php echo $image['sizes']['sign-up-image']; ?>" alt="<?php echo $image['alt']; ?>" class="tabs-slider__image-img" />
 						</figure>
-						<?php } ?>
+						<?php } ?> 
 					</div>
 
 					<?php }else if( $itinerary_day_stop['type'] == 'map' ){
@@ -61,11 +61,11 @@
 					  <?php  require locate_template ( 'template-parts/content-map.php' ); ?>
 			    	</div>
 					<?php }else{} ?>
-			    </div>
+			    </div> 
 			</div>
 		<?php
 			}
 		}
-		?>
+		?> 
 	</div>
-</section>
+</section>  

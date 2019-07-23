@@ -50,7 +50,6 @@ final class ACFService{
                 break;
             default:
                 update_post_meta($pid, $name, $cf_value);
-                update_field($name, $cf_value, $pid);
                 break;
         }
     }

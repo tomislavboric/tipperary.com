@@ -1,10 +1,10 @@
 {
     "key": "group_5ca9174a22dd4",
-    "title": "Itinerary no of days",
+    "title": "Number of Days",
     "fields": [
         {
             "key": "field_5ca917577216d",
-            "label": "Itinerary no of days",
+            "label": "Number of Days",
             "name": "itinerary_no_of_days",
             "type": "number",
             "instructions": "",
@@ -41,7 +41,7 @@
     "hide_on_screen": [
         "the_content"
     ],
-    "active": true,
+    "active": 1,
     "description": "",
-    "modified": 1555445975
+    "modified": 1563219634
 }
